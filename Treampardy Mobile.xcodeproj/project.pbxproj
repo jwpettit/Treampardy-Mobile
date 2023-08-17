@@ -12,6 +12,7 @@
 		784384CF2A8D8238006AF84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784384CE2A8D8238006AF84D /* Assets.xcassets */; };
 		784384D22A8D8238006AF84D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784384D12A8D8238006AF84D /* Preview Assets.xcassets */; };
 		78E765852A8E91AE00BD4BD8 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E765842A8E91AE00BD4BD8 /* PrimaryButton.swift */; };
+		78E765872A8E94A700BD4BD8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E765862A8E94A700BD4BD8 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		784384CE2A8D8238006AF84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784384D12A8D8238006AF84D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78E765842A8E91AE00BD4BD8 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		78E765862A8E94A700BD4BD8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				78E765812A8E8EC000BD4BD8 /* Models */,
 				784384CE2A8D8238006AF84D /* Assets.xcassets */,
 				784384D02A8D8238006AF84D /* Preview Content */,
+				78E765862A8E94A700BD4BD8 /* Extensions.swift */,
 			);
 			path = "Treampardy Mobile";
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				78E765852A8E91AE00BD4BD8 /* PrimaryButton.swift in Sources */,
 				784384CD2A8D8237006AF84D /* ContentView.swift in Sources */,
 				784384CB2A8D8237006AF84D /* Treampardy_MobileApp.swift in Sources */,
+				78E765872A8E94A700BD4BD8 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@ struct ContentView: View {
                     .frame(height: 200)
 
                 Text("This is Treampardy!")
+                    .titleText()
                     
                 
                 NavigationLink {
