@@ -11,17 +11,22 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 40) {
-                VStack(spacing: 20) {
-                    Text("This is Treampardy!")
+                Image("TreampardyLogo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 200)
+
+                Text("This is Treampardy!")
                     
-                }
                 
                 NavigationLink {
                     
                 } label: {
-                    
+                    PrimaryButton(text: "Let's play!")
                 }
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .edgesIgnoringSafeArea(.all)
         }
     }
 }

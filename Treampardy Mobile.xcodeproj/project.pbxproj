@@ -11,6 +11,7 @@
 		784384CD2A8D8237006AF84D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784384CC2A8D8237006AF84D /* ContentView.swift */; };
 		784384CF2A8D8238006AF84D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784384CE2A8D8238006AF84D /* Assets.xcassets */; };
 		784384D22A8D8238006AF84D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784384D12A8D8238006AF84D /* Preview Assets.xcassets */; };
+		78E765852A8E91AE00BD4BD8 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E765842A8E91AE00BD4BD8 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		784384CC2A8D8237006AF84D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		784384CE2A8D8238006AF84D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784384D12A8D8238006AF84D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78E765842A8E91AE00BD4BD8 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		78E765802A8E8EB400BD4BD8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				78E765842A8E91AE00BD4BD8 /* PrimaryButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E765852A8E91AE00BD4BD8 /* PrimaryButton.swift in Sources */,
 				784384CD2A8D8237006AF84D /* ContentView.swift in Sources */,
 				784384CB2A8D8237006AF84D /* Treampardy_MobileApp.swift in Sources */,
 			);
